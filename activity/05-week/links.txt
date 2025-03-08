@@ -1,0 +1,7 @@
+links
+trello:
+https://trello.com/invite/b/67c65f6cce1cf59067633ae9/ATTI36e6d8513e5d3e972b66c248656c4db8CC12B4DA/gestion-de-control-de-vuelos
+Figma:
+https://www.figma.com/design/tNnnQzjQialNNZ2stzevB3/GESTION-DE-VUELOS?node-id=2-252&t=9BRnxlpEz5o57ucM-1
+git:
+https://github.com/Pipecerquera/Daniel-cerquera-programacion-movil-2025-a-g1.git
