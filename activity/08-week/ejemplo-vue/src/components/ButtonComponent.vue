@@ -14,6 +14,6 @@
 </template>
 
 <script setup lang="ts">
-  import { IonButton, IonIcon } from '@ionic/vue';
-  import { add, create, trash, search } from 'ionicons/icons';
+import { IonButton, IonIcon } from '@ionic/vue';
+import { add, create, trash, search } from 'ionicons/icons';
 </script>

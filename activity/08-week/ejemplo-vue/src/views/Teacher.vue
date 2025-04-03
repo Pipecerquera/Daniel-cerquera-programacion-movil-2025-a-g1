@@ -13,7 +13,8 @@
         </ion-toolbar>
       </ion-header>
 
-      <BasicData></BasicData>
+      <BasicData />
+      
       <ion-list>
         <ion-item>
           <ion-input id="entryDate" label="Fecha Ingreso" type="date" placeholder="dd-mm-yyyy"></ion-input>
@@ -25,46 +26,15 @@
           <ion-checkbox slot="start" id="status"></ion-checkbox>
           <ion-label>Estado</ion-label>
         </ion-item>
-
       </ion-list>
 
-      <ButtonComponent></ButtonComponent>
+      <ButtonComponent />
     </ion-content>
   </ion-page>
 </template>
 
 <script setup lang="ts">
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonList, IonItem, IonInput } from '@ionic/vue';
-import BasicData from '@/components/ComponentBasicData.vue'
-import ButtonComponent from '@/components/ButtonComponent.vue'
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonList, IonItem, IonInput, IonCheckbox, IonLabel } from '@ionic/vue';
+import BasicData from '@/components/ComponentBasicData.vue';
+import ButtonComponent from '@/components/ButtonComponent.vue';
 </script>
-
-<style scoped>
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
-}
-</style>
