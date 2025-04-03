@@ -1,0 +1,7 @@
+{
+  "name": "MiAppPersona",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}

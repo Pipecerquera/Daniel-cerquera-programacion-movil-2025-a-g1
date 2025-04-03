@@ -1,0 +1,19 @@
+{
+  "name": "miapppersona",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@ionic/vue": "^6.7.0",
+    "@ionic/vue-router": "^6.7.0",
+    "vue": "^3.2.47",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "vite": "^4.0.0"
+  }
+}

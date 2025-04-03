@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Gestión de Personas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-button expand="full" (click)="agregarPersona()">Agregar Persona</ion-button>
+
+  <ion-list>
+    <ion-item *ngFor="let persona of personas; let i = index">
+      <ion-label>
+        <h2>{{ persona.nombre }}</h2>
+        <p>Edad: {{ persona.edad }} | Correo: {{ persona.correo }}</p>
+      </ion-label>
+      <ion-button (click)="editarPersona(i)" fill="outline">Editar</ion-button>
+      <ion-button color="danger" (click)="eliminarPersona(i)" fill="outline">Eliminar</ion-button>
+    </ion-item>
+  </ion-list>
+</ion-content>
