@@ -1,10 +1,10 @@
 # Daniel-cerquera-programacion-movil-2025-a-g1
 ## Branch by repository
 
-1. main (project)
-2. develop (project)
-3. qa (project)
-4. feature/document
+1. main
+2. develop 
+3. qa 
+4. feature/project
    1. minutes
    2. video
    3. diagram
